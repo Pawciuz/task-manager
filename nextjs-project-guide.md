@@ -33,7 +33,7 @@ Projekt będzie dostępny pod adresem http://localhost:3000.
 2. Utwórz plik dla nowego komponentu:
    - Na przykład, utwórz komponent o nazwie `AddTask.jsx`.
 
-3. Dodaj kod komponentu do pliku `AddTask.js`:
+3. Dodaj kod komponentu do pliku `AddTask.jsx`:
    - Przykładowy komponent do dodawania zadania:
 
    ```jsx
