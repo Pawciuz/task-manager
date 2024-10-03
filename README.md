@@ -44,3 +44,20 @@ You can run jest tests by running the following command:
 ```bash
 npm run test
 ```
+
+## Test List
+
+### AddTask Component
+- **Render Test**: Verifies that the input field and the "Add Task" button are rendered correctly.
+- **Add Task Functionality**: Checks that the `onAddTask` function is called with the correct task title when the button is clicked.
+- **Input Clearing**: Ensures that the input field is cleared after adding a task.
+
+### TaskItem Component
+- **Render Test**: Confirms that the task title and "Complete" button are displayed.
+- **Toggle Task Functionality**: Validates that the `onToggleTask` function is called with the correct task ID when the "Complete" button is clicked.
+- **Delete Task Functionality**: Checks that the `onDeleteTask` function is called with the correct task ID when the "Delete" button is clicked.
+
+### TaskManager Component
+- **Render Test**: Ensures the "Task Manager" title is displayed correctly.
+- **Add Task Functionality**: Tests that a new task can be added, and it appears in the task list.
+- **Delete Task Functionality**: Validates that a task can be deleted from the task list, and it is no longer displayed.
