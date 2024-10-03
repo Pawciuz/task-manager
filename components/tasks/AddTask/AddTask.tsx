@@ -11,7 +11,7 @@ const AddTask: React.FC<AddTaskProps> = ({ onAddTask }) => {
   const handleAddTask = () => {
     if (newTask.trim()) {
       onAddTask(newTask);
-      setNewTask(""); // Resetuje input po dodaniu
+      setNewTask("");
     }
   };
 
