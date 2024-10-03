@@ -2,6 +2,8 @@ This is a Task Manager app made with Next.js, TypeScript,Tailwind CSS, Jest, sha
 
 It uses localStorage to store tasks and their status.
 
+This project is mainly to learn jest and testing.
+
 ## Getting Started
 
 First, run the development server:
