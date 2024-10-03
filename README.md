@@ -61,3 +61,33 @@ npm run test
 - **Render Test**: Ensures the "Task Manager" title is displayed correctly.
 - **Add Task Functionality**: Tests that a new task can be added, and it appears in the task list.
 - **Delete Task Functionality**: Validates that a task can be deleted from the task list, and it is no longer displayed.
+## PhotosPage Component
+- **Render Test for Local Image**: Checks that the local image is rendered with the correct `src` attribute, confirming that the image loads properly.
+
+- **Render Test for External Image**: Verifies that the external image is rendered with the correct `src` attribute, ensuring that the image is accessible.
+
+- **Check All Images for `src` Attributes**: Confirms that all images have `src` attributes to ensure that no images are missing their source.
+
+## TaskTablePage Component
+- **Title Display Test**: Verifies that the title "Task Manager" is displayed correctly in the component.
+
+- **Table Header Test**: Ensures that the table headers ("Task ID", "Title", "Completed") are rendered correctly.
+
+- **LocalStorage Task Display Test**: Validates that tasks stored in localStorage are displayed correctly in the table when the component mounts.
+
+- **No Tasks Available Test**: Confirms that the message "No tasks available" is displayed when localStorage is empty.
+
+## TaskTablePage Responsiveness Tests
+- **Medium Screen Text Display**: Checks that the text for medium screens appears correctly when the viewport width is set to a medium size (768px).
+
+- **Small Screen Text Display**: Validates that the text for small screens appears correctly when the viewport width is set to a small size (400px).
+
+- **Clear Tasks Button Display on Large Screens**: Confirms that the "Clear Tasks" button is visible on large screens (1024px), and ensures that clicking it updates the task display correctly.
+
+## Navbar Component Tests
+
+- **Render Test with Correct Title**: Verifies that the navbar is rendered with the correct "Task Manager" title.
+- **All Routes Rendering**: Ensures that all routes defined in the ROUTES array are correctly rendered in the navbar.
+- **Active Route Highlighting**: Checks that the active route is highlighted with the correct CSS classes ("text-gray-300 font-bold underline").
+- **Inactive Routes Styling**: Validates that inactive routes have the correct styling (only "text-white" class, without "font-bold" or "underline").
+- **Children Content Rendering**: Confirms that the Navbar component correctly renders its children content.
